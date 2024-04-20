@@ -35,6 +35,7 @@ app.use("/api/v1", spitiRouter);
 app.use("/api/v1", ladakhRouter);
 app.use("/api/v1", EmailSubscribe) 
 
+
 app.get("/", (req, res) => {
     const htmlContent = `<h1>Backend is Running</h1>`;
     res.send(htmlContent);
